@@ -1,0 +1,9 @@
+name: MoreLevelMobs
+version: 1.0
+main: me.flukky.morelevelmobs.MoreLevelMobs
+api-version: 1.21
+commands:
+  morelevelmobs:
+    description: "Spawn and reload config"
+    usage: "/morelevelmobs"
+    aliases: [mlm]

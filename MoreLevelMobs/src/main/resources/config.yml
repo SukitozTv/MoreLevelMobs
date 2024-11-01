@@ -1,0 +1,26 @@
+# การตั้งค่าใน config.yml
+
+# โอกาสในการเกิดมอนสเตอร์ที่มีการปรับแต่ง (เปอร์เซ็นต์)
+spawnChance: 10 
+
+spawnBalance: 3
+
+debug:
+  show-speed: false
+  show-message: true
+
+# ระดับเลเวลต่ำสุดและสูงสุดที่มอนสเตอร์จะสุ่มได้
+minLevel: 1
+maxLevel: 50
+
+# สีสำหรับแสดงระดับมอนสเตอร์
+level-colors:
+  low-level-color: "GREEN" # สีสำหรับระดับต่ำ (1-10)
+  mid-level-color: "YELLOW" # สีสำหรับระดับกลาง (11-20)
+  high-level-color: "GOLD" # สีสำหรับระดับสูง (21-30)
+  extreme-level-color: "RED" # สีสำหรับระดับสุดขีด (30 ขึ้นไป)
+
+# ค่าพรีเซ็ตเริ่มต้นที่ใช้กับมอนสเตอร์
+default-rule:
+  use-preset:
+    - challenge-silver # พรีเซ็ตที่กำหนดใน settings.yml จะถูกนำมาใช้

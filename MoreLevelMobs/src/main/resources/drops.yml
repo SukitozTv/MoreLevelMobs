@@ -1,0 +1,211 @@
+# โอกาสการดรอปไอเทมสำหรับแต่ละระดับ
+drop-chance:
+  base: 5.0              # โอกาสการดรอปพื้นฐาน (เปอร์เซ็นต์)
+  increase-per-level: 2.5  # อัตราการเพิ่มโอกาสต่อระดับ
+
+# รายการไอเทมที่สามารถดรอปได้ตามระดับ
+
+items:
+  level-1-10:
+    xp: 15
+    common-item1:
+      name: "Wooden Plank"
+      item: "OAK_PLANK"
+      amount: 2
+      chance: 60
+      custom_model_data: 1000
+    common-item2:
+      name: "Stick"
+      item: "STICK"
+      amount: 3
+      chance: 40
+      custom_model_data: 1000
+    item1:
+      name: "Iron Ingot"
+      item: "IRON_INGOT"
+      amount: 5
+      chance: 50
+      custom_model_data: 1001
+    gem+1:
+      name: "Gem of Power +1"
+      item: "DIAMOND"
+      amount: 1
+      chance: 25
+      custom_model_data: 1001
+    gem+2:
+      name: "Gem of Power +2"
+      item: "DIAMOND"
+      amount: 1
+      chance: 20
+      custom_model_data: 1002
+    gem+3:
+      name: "Gem of Power +3"
+      item: "DIAMOND"
+      amount: 1
+      chance: 15
+      custom_model_data: 1003
+    gem+4:
+      name: "Gem of Power +4"
+      item: "DIAMOND"
+      amount: 1
+      chance: 10
+      custom_model_data: 1004
+    gem+5:
+      name: "Gem of Power +5"
+      item: "DIAMOND"
+      amount: 1
+      chance: 5
+      custom_model_data: 1005
+
+  level-11-20:
+    xp: 28
+    common-item1:
+      name: "Stone"
+      item: "STONE"
+      amount: 5
+      chance: 50
+      custom_model_data: 1000
+    common-item2:
+      name: "Coal"
+      item: "COAL"
+      amount: 3
+      chance: 60
+      custom_model_data: 1000
+    item1:
+      name: "Gold Ingot"
+      item: "GOLD_INGOT"
+      amount: 2
+      chance: 40
+      custom_model_data: 1002
+    gem+1:
+      name: "Gem of Power +1"
+      item: "DIAMOND"
+      amount: 1
+      chance: 30
+      custom_model_data: 1001
+    gem+2:
+      name: "Gem of Power +2"
+      item: "DIAMOND"
+      amount: 1
+      chance: 25
+      custom_model_data: 1002
+    gem+3:
+      name: "Gem of Power +3"
+      item: "DIAMOND"
+      amount: 1
+      chance: 20
+      custom_model_data: 1003
+    gem+4:
+      name: "Gem of Power +4"
+      item: "DIAMOND"
+      amount: 1
+      chance: 15
+      custom_model_data: 1004
+    gem+5:
+      name: "Gem of Power +5"
+      item: "DIAMOND"
+      amount: 1
+      chance: 10
+      custom_model_data: 1005
+
+  level-21-30:
+    xp: 32
+    common-item1:
+      name: "Iron Ore"
+      item: "IRON_ORE"
+      amount: 1
+      chance: 40
+      custom_model_data: 1000
+    common-item2:
+      name: "Redstone Dust"
+      item: "REDSTONE"
+      amount: 2
+      chance: 30
+      custom_model_data: 1000
+    item1:
+      name: "Diamond"
+      item: "DIAMOND"
+      amount: 1
+      chance: 20
+      custom_model_data: 1003
+    gem+1:
+      name: "Gem of Power +1"
+      item: "DIAMOND"
+      amount: 1
+      chance: 35
+      custom_model_data: 1001
+    gem+2:
+      name: "Gem of Power +2"
+      item: "DIAMOND"
+      amount: 1
+      chance: 30
+      custom_model_data: 1002
+    gem+3:
+      name: "Gem of Power +3"
+      item: "DIAMOND"
+      amount: 1
+      chance: 25
+      custom_model_data: 1003
+    gem+4:
+      name: "Gem of Power +4"
+      item: "DIAMOND"
+      amount: 1
+      chance: 20
+      custom_model_data: 1004
+    gem+5:
+      name: "Gem of Power +5"
+      item: "DIAMOND"
+      amount: 1
+      chance: 15
+      custom_model_data: 1005
+
+  level-31+:
+    xp: 44
+    common-item1:
+      name: "Emerald"
+      item: "EMERALD"
+      amount: 1
+      chance: 20
+      custom_model_data: 1000
+    common-item2:
+      name: "Lapis Lazuli"
+      item: "LAPIS_LAZULI"
+      amount: 3
+      chance: 30
+      custom_model_data: 1000
+    item1:
+      name: "Netherite Ingot"
+      item: "NETHERITE_INGOT"
+      amount: 1
+      chance: 35
+      custom_model_data: 1004
+    gem+1:
+      name: "Gem of Power +1"
+      item: "DIAMOND"
+      amount: 1
+      chance: 40
+      custom_model_data: 1001
+    gem+2:
+      name: "Gem of Power +2"
+      item: "DIAMOND"
+      amount: 1
+      chance: 35
+      custom_model_data: 1002
+    gem+3:
+      name: "Gem of Power +3"
+      item: "DIAMOND"
+      amount: 1
+      chance: 30
+      custom_model_data: 1003
+    gem+4:
+      name: "Gem of Power +4"
+      item: "DIAMOND"
+      amount: 1
+      chance: 25
+      custom_model_data: 1004
+    gem+5:
+      name: "Gem of Power +5"
+      item: "DIAMOND"
+      amount: 1
+      chance: 20
+      custom_model_data: 1005

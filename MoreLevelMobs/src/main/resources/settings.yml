@@ -1,0 +1,16 @@
+presets:
+  challenge-silver:
+    name: 'Silver Challenge'
+    settings:
+      attribute-modifier:
+        merge: false
+        max-health: 5.0
+        movement-speed: 0.1
+        attack-damage: 2.25
+        ranged-attack-damage: 1.5
+        creeper-blast-damage: 0.75
+        item-drop: 3.0
+        xp-drop: 5.0
+      # Special Multipliers (0.0 Min - 1.0 Max)
+        armor-bonus: 0.2
+        armor-toughness: 0.15
